@@ -7,6 +7,8 @@ import { Contact } from './pages/Contact';
 import { FAQPage } from './pages/FAQPage';
 import { ScrollToTop } from './components/layout/ScrollToTop';
 
+import { FloatingWhatsApp } from './components/ui/FloatingWhatsApp';
+
 function App() {
     return (
         <Router>
@@ -19,6 +21,7 @@ function App() {
                 <Route path="/contato" element={<Contact />} />
                 <Route path="/faq" element={<FAQPage />} />
             </Routes>
+            <FloatingWhatsApp />
         </Router>
     );
 }
