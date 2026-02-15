@@ -13,13 +13,13 @@ export function PainPoints() {
         {
             icon: AlertTriangle,
             title: "Apagando incêndio",
-            description: "Sem processo, cada dia é uma correria diferente. Você perde tempo resolvendo problemas que não deveriam existir.",
+            description: "Trabalhar sem processos é focar na correção de erros em vez da geração de resultados!",
             value: "Estresse diário"
         },
         {
             icon: BarChart3,
             title: "Depende de você",
-            description: "Se você parar, a empresa para. Você depende de correr atrás do cliente toda hora — e isso impede sua empresa de escalar.",
+            description: "Pare de correr atrás de clientes. Tenha uma gestão de trafego que gere demanda, um  site de alta conversão  e automações que trabalhem por você 24h por dia, no automático.",
             value: "Sem liberdade"
         }
     ];
