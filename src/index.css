@@ -33,4 +33,29 @@
   .glass-card {
     @apply bg-slate-900/50 backdrop-blur-lg border border-white/5;
   }
+
+  /* Beacon Animation */
+  .beacon {
+    animation: beacon 2.8s ease-in-out infinite;
+  }
+
+  @keyframes beacon {
+
+    0%,
+    100% {
+      transform: scale(0.92);
+      opacity: 0.25;
+    }
+
+    50% {
+      transform: scale(1.18);
+      opacity: 0.55;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .beacon {
+      animation: none;
+    }
+  }
 }

@@ -17,24 +17,31 @@ export function Hero() {
                 <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
 
                     <Reveal>
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-8 hover:bg-white/10 transition-colors cursor-default">
-                            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                            <span className="text-sm text-slate-300 font-medium">Sistema Inteligente + Suporte Humano</span>
+                        <div className="relative inline-flex mb-8">
+                            <span className="absolute -top-2 -right-2 h-3 w-3 rounded-full bg-[#FF3B30] beacon" />
+                            <span className="absolute -top-2 -right-2 h-3 w-3 rounded-full bg-[#FF3B30]/35 blur-md beacon" />
+
+                            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md hover:bg-white/10 transition-colors cursor-default">
+                                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                                <span className="text-sm text-slate-300 font-medium">Sistema Inteligente + Suporte Humano</span>
+                            </div>
                         </div>
                     </Reveal>
 
                     <Reveal delay={0.1}>
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.1] mb-8 font-sans">
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">
-                                Seu WhatsApp vendendo com rotina
-                            </span><br />
-                            — e a nossa equipe do seu lado.
+                        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-8">
+                            Transforme sua empresa em uma{" "}
+                            <span className="bg-[linear-gradient(90deg,#1E4ED8_0%,#7C3AED_55%,rgba(255,106,0,0.72)_100%)] bg-clip-text text-transparent">
+                                máquina de vendas autônoma com IA
+                            </span>
+                            .
                         </h1>
                     </Reveal>
 
                     <Reveal delay={0.2}>
-                        <p className="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto leading-relaxed mb-10 font-sans">
-                            A Connect IA coloca um sistema de atendimento e vendas para trabalhar no seu WhatsApp todos os dias. E a nossa equipe acompanha de perto, ajusta e dá suporte contínuo — como parceiros comerciais do seu negócio.
+                        <p className="mt-5 max-w-2xl text-base md:text-lg text-white/75 mx-auto mb-10">
+                            Pare de perder leads por falta de acompanhamento. Implementamos agentes de IA e automações
+                            que vendem, atendem e qualificam seus clientes 24 horas por dia.
                         </p>
                     </Reveal>
 

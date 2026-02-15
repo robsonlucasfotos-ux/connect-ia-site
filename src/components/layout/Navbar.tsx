@@ -30,13 +30,15 @@ export function Navbar() {
                 <div className="flex items-center justify-between">
                     {/* Logo area */}
                     <Link to="/" className="flex items-center gap-2 group">
-                        <div className="relative w-8 h-8 md:w-10 md:h-10">
-                            <div className="absolute inset-0 bg-blue-500 blur-lg opacity-50 group-hover:opacity-100 transition-opacity"></div>
-                            <img src="/brand/logo-connect.png.png" alt="Connect IA" className="relative w-full h-full object-contain" />
+                        <div className="flex flex-col leading-none">
+                            <div className="flex items-baseline gap-2">
+                                <span className="text-white font-extrabold text-xl">Connect</span>
+                                <span className="text-[#FF6A00] font-extrabold text-xl">IA</span>
+                            </div>
+                            <span className="text-white/60 text-[11px] tracking-wide">
+                                Marketing digital e automações
+                            </span>
                         </div>
-                        <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">
-                            Connect<span className="text-blue-500">IA</span>
-                        </span>
                     </Link>
 
                     {/* Desktop Menu */}

@@ -14,7 +14,7 @@ export function HowItWorks() {
         <section className="py-24 bg-slate-900 border-y border-white/5" id="process">
             <Container>
                 <div className="flex flex-col md:flex-row gap-16 items-start">
-                    <div className="md:w-1/3 sticky top-32">
+                    <div className="md:w-1/3 md:sticky md:top-32 self-start">
                         <Reveal>
                             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                                 Implementação guiada e sem estresse.
