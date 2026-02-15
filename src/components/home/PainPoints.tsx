@@ -7,7 +7,7 @@ export function PainPoints() {
         {
             icon: TrendingUp,
             title: "Vendas sem rotina",
-            description: "Você até vende, mas sem um processo claro, fica impossível crescer de verdade. Cada mês é uma incerteza.",
+            description: "Pare de contar com a sorte. Tenha um site inteligente que transforma seu processo de vendas em uma máquina automática de resultados, mês após mês.",
             value: "Crescimento travado"
         },
         {
