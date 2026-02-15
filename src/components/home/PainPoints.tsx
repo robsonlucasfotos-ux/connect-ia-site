@@ -19,7 +19,7 @@ export function PainPoints() {
         {
             icon: BarChart3,
             title: "Depende de você",
-            description: "Pare de correr atrás de clientes. Tenha uma gestão de trafego que gere demanda, um  site de alta conversão  e automações que trabalhem por você 24h por dia, no automático.",
+            description: "Pare de correr atrás de clientes. Tenha uma gestão de tráfego que gere demanda, um  site de alta conversão  e automações que trabalhem por você 24h por dia, no automático.",
             value: "Sem liberdade"
         }
     ];
