@@ -23,6 +23,12 @@
   ::-webkit-scrollbar-thumb:hover {
     @apply bg-slate-700;
   }
+
+  p,
+  li,
+  blockquote {
+    @apply text-justify hyphens-auto leading-relaxed;
+  }
 }
 
 @layer utilities {
